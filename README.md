@@ -1,6 +1,6 @@
 # Programming Fundamentals
 
-The ideia of this repository is to keep the exercises that I've been working on to consolidate the programming fundamentals studies.
+The idea of this repository is to keep the exercises I’ve been working on to consolidate the programming fundamentals studies.
 
 ## Exercise List
 
