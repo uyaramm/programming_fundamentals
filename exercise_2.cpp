@@ -7,10 +7,9 @@ numbers 1 to n. However, only multiples of three or five are considered in the
 sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17*/
 
 int getSum(int number) {
-  int i;
   int sum = 0;
 
-  for (i = 0; i <= number; i++) {
+  for (int i = 0; i <= number; i++) {
     if (i % 3 == 0 || i % 5 == 0) {
       sum += i;
     }
@@ -20,7 +19,18 @@ int getSum(int number) {
 
 void executeTest() {
   cout << "N= 5, expected sum = 8. Result= " << getSum(5) << endl;
-  cout << "N= 10, expected sum = 23. Result=  " << getSum(10) << endl;
+  cout << "N= 10, expected sum = 33. Result=  " << getSum(10) << endl;
+}
+
+void sumWithUserInput() {
+  int number, sum;
+
+  cout << "Type a number and I'll give you the sum of of three or five: "
+       << endl;
+  cin >> number;
+
+  sum = getSum(number);
+  cout << "The sum of the multiple of three and five is: " << sum << endl;
 }
 
 void executeUserChoice(int choice) {
@@ -31,14 +41,7 @@ void executeUserChoice(int choice) {
     break;
 
   case 2:
-    int number, sum;
-    cout << "Type a number and I'll give you the sum of of three or five: "
-         << endl;
-    cin >> number;
-
-    sum = getSum(number);
-    cout << "The sum of the multiple of three and five is: " << sum << endl;
-    ;
+    sumWithUserInput();
     break;
 
   case 3:
