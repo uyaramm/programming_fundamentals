@@ -12,3 +12,5 @@ The idea of this repository is to keep the exercises I’ve been working on to c
   sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17](./exercise_2.cpp)
 
 - [Write a program that asks the user for a number n and gives them the possibility to choose between computing the sum and computing the product of 1,..,n](./exercise_3.cpp)
+
+- [Write a program that prints a multiplication table for numbers up to 12](./exercise_4.cpp)
