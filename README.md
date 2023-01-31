@@ -13,4 +13,6 @@ The idea of this repository is to keep the exercises I’ve been working on to c
 
 - [Write a program that asks the user for a number n and gives them the possibility to choose between computing the sum and computing the product of 1,..,n](./exercise_3.cpp)
 
+- [Write a program that prints a multiplication table for numbers up to 12](./exercise_4.cpp)
+
 - [Write a program that prints all prime numbers for n given by user](./exercise_5.cpp)
